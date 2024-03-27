@@ -7,8 +7,6 @@ var ATM = function() {
 };
 
 /**
- * @param {number[]} banknotesCount
- * @return {void}
  */
 //тут кладем деньги
 //подается массив в котором по индексу определено какие купюры и сколько кладём
@@ -20,8 +18,6 @@ ATM.prototype.deposit = function(banknotesCount) {
 };
 
 /**
- * @param {number} amount
- * @return {number[]}
  */
 //тут будем снимать деньги по жадному алгоритму
 ATM.prototype.withdraw = function(amount) {

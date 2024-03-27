@@ -16,10 +16,7 @@
  * Объяснение:
  *
  * 342 + 465 = 807
- * @param l1
- * @param l2
- * @returns {*}
- * @constructor
+
  */
 
 var AddTwoNumbers = function(l1,l2){

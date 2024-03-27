@@ -12,9 +12,6 @@
  * Input: s1 = "ab", s2 = "eidboaoo"
  * Output: false
  *
- * @param s1
- * @param s2
- * @returns {boolean}
  */
 
 function checkInclusion(s1, s2) {

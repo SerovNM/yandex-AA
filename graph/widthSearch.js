@@ -4,7 +4,7 @@ function personIsSeller(person) {
     return person.endsWith('m');
 }
 
-// Объявление функции search с параметром name и graph
+// Объявление функции search(binary) с параметром name и graph
 function search(name, graph) {
     // Создание пустой очереди поиска
     let searchQueue = [];
@@ -47,5 +47,5 @@ const graph = {
     "jonny": []
 };
 
-// Вызов функции search с начальным именем "you" и графом
+// Вызов функции search(binary) с начальным именем "you" и графом
 search("you", graph);
